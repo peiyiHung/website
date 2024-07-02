@@ -3,20 +3,16 @@ project:
   output-dir: docs
 
 website:
-  title: "website_title"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-    right:
-      - about.qmd
-      - blog.qmd
-
+  title: "視覺化課程"
+  navbar: 
+    search: true
+     
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    mainfont: "Noto Sans TC"
 
 editor: visual
 

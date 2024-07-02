@@ -1,11 +1,234 @@
 ---
-title: "index_title"
+title: ""
+title-block-style: none
+format:
+  html:
+    toc: true
+    link-external-newwindow: true
+    toc-title: "目次"
+    other-links:
+      - text: 課程簡報下載
+        href: https://data.nasa.gov/
+      - text: 範例資料來源
+        href: https://dep.mohw.gov.tw/DOS/cp-5337-62357-113.html
 ---
 
-This is a Quarto website.
+# 1. 長條圖
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## 設計Tips
 
-```{r}
-1 + 1
+-   依數值大小排序，利於比較大小
+
+-   若類別本身之間帶有次序，則依次序排列，例如：時間、年齡組、大小
+
+-   太長的類別標籤請使用橫向長條圖，以讓讀者清楚閱讀類別標籤
+
+-   座標軸範圍請從0開始，以免過度強調差異
+
+## Excel操作
+
+**(1) 製作圖表**
+
+-   選取類別標籤和數值，選取「插入」＞ 「圖表」＞ 選擇長條圖
+
+-   為了將長條依大小排列，我們要先排序資料，再製作圖表
+
+-   因類別標籤太長，我們應使用橫向長條圖，接這再依大小排序
+
+::: {style="padding:50.85% 0 0 0;position:relative;"}
+<iframe src="https://player.vimeo.com/video/972878247?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="1-1">
+
+</iframe>
+:::
+
+```{=html}
+<script src="https://player.vimeo.com/api/player.js"></script>
+```
+<br> (**2) 調整座標軸**
+
+-   點兩下即可開啟調整頁面，可調整座標軸範圍、線條、標籤
+
+::: {style="padding:49.79% 0 0 0;position:relative;"}
+<iframe src="https://player.vimeo.com/video/972883212?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="1-2">
+
+</iframe>
+:::
+
+```{=html}
+<script src="https://player.vimeo.com/api/player.js"></script>
+```
+<br>(**3) 調整長條樣式**
+
+-   點兩下長條，開啟調整頁面
+
+-   透過類別間距，調整長條的粗細程度
+
+-   透過框線調整長條之形狀
+
+-   再點兩下，則可以選取個別長條以做調整
+
+::: {style="padding:49.79% 0 0 0;position:relative;"}
+<iframe src="https://player.vimeo.com/video/972892211?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="1-3">
+
+</iframe>
+:::
+
+```{=html}
+<script src="https://player.vimeo.com/api/player.js"></script>
+```
+<br>**(4) 加入即調整資料標籤**
+
+-   按「+」後，將「資料標籤」打勾
+
+-   選取資料標籤後，按2下，做樣式的調整
+
+::: {style="padding:49.79% 0 0 0;position:relative;"}
+<iframe src="https://player.vimeo.com/video/972897221?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="1-4">
+
+</iframe>
+:::
+
+```{=html}
+<script src="https://player.vimeo.com/api/player.js"></script>
+```
+# 2. 折線圖
+
+## 設計Tips
+
+-   座標軸範圍不需從0開始，要如何設定範圍依照想強調的內容而定
+
+-   不需要將每一個資料標籤都標出來，只需列出重要的即可
+
+-   當資料點較少時，可以標出資料點，讓視覺上不會那麼單調
+
+-   注意是否有年度缺漏，以虛線表示預估的數值
+
+-   時間要在x軸，數值要在y軸
+
+## Excel操作
+
+**(1) 製作圖表**
+
+-   先選取數量資料後，插入折線圖
+
+-   點選標籤，調整標籤格式
+
+::: {style="padding:49.79% 0 0 0;position:relative;"}
+<iframe src="https://player.vimeo.com/video/973666124?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="2-1">
+
+</iframe>
+:::
+
+```{=html}
+<script src="https://player.vimeo.com/api/player.js"></script>
+```
+<br> **(2) 調整x軸標籤及圖示**
+
+-   按下「選取資料」，手動選取座標軸標籤
+
+-   調整數列名稱以顯示正確圖示名稱
+
+::: {style="padding:49.79% 0 0 0;position:relative;"}
+<iframe src="https://player.vimeo.com/video/973666170?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="2-2">
+
+</iframe>
+:::
+
+```{=html}
+<script src="https://player.vimeo.com/api/player.js"></script>
+```
+<br> **(3) 調整座標軸範圍**
+
+-   點2下彈出做座標軸選單
+
+-   調整最大值、最小值、間隔
+
+::: {style="padding:49.79% 0 0 0;position:relative;"}
+<iframe src="https://player.vimeo.com/video/973666220?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="2-3">
+
+</iframe>
+:::
+
+```{=html}
+<script src="https://player.vimeo.com/api/player.js"></script>
+```
+<br> **(4) 調整線條樣式**
+
+-   調整線條的粗細、顏色
+
+-   對每一個點加入標記
+
+-   調整個別線段
+
+::: {style="padding:49.79% 0 0 0;position:relative;"}
+<iframe src="https://player.vimeo.com/video/973665830?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="2-4">
+
+</iframe>
+:::
+
+```{=html}
+<script src="https://player.vimeo.com/api/player.js"></script>
+```
+# 3. 圓餅圖
+
+## 設計Tips
+
+-   圓餅圖在數值接近或類別很多時，不易做比較，可以考慮使用其他圖形，例如長條圖或矩形式樹狀結構圖
+
+-   扇形應依數值大小，從12點鐘方向開始排列
+
+-   不一定要標示出每一個類別，可依需求僅標示出想要強調的類別
+
+## Excel操作
+
+**(1) 製作圖表**
+
+-   先將數值依大小排列
+
+-   點「插入」，選取「圓餅圖」
+
+::: {style="padding:49.79% 0 0 0;position:relative;"}
+<iframe src="https://player.vimeo.com/video/973843994?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="3-1">
+
+</iframe>
+:::
+
+```{=html}
+<script src="https://player.vimeo.com/api/player.js"></script>
+```
+<br>**(2) 資料標籤及顏色**
+
+-   加入數值的資料標籤，選擇顯示百分比，調整標籤位置
+
+-   調整扇形顏色，僅凸顯占比最高的三種類型
+
+::: {style="padding:49.79% 0 0 0;position:relative;"}
+<iframe src="https://player.vimeo.com/video/973855769?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="3-2">
+
+</iframe>
+:::
+
+```{=html}
+<script src="https://player.vimeo.com/api/player.js"></script>
+```
+<br>**(3) 加入類別標籤及其他註解**
+
+-   將圖表的背景及框線都去除
+
+-   複製整個圖表，貼入空白的PowerPoint檔案中
+
+-   加入標籤及文字註解
+
+-   全選物件，再組成群組
+
+-   另存成圖檔
+
+::: {style="padding:52.28% 0 0 0;position:relative;"}
+<iframe src="https://player.vimeo.com/video/973866650?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="3-3">
+
+</iframe>
+:::
+
+```{=html}
+<script src="https://player.vimeo.com/api/player.js"></script>
 ```

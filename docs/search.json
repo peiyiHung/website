@@ -1,10 +1,17 @@
 [
   {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "blog",
+    "section": "",
+    "text": "post_temp\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "index_title",
+    "title": "1. 長條圖",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "依數值大小排序，利於比較大小\n若類別本身之間帶有次序，則依次序排列，例如：時間、年齡組、大小\n太長的類別標籤請使用橫向長條圖，以讓讀者清楚閱讀類別標籤\n座標軸範圍請從0開始，以免過度強調差異\n\n\n\n\n(1) 製作圖表\n\n選取類別標籤和數值，選取「插入」＞ 「圖表」＞ 選擇長條圖\n為了將長條依大小排列，我們要先排序資料，再製作圖表\n因類別標籤太長，我們應使用橫向長條圖，接這再依大小排序\n\n\n\n\n\n\n (2) 調整座標軸\n\n點兩下即可開啟調整頁面，可調整座標軸範圍、線條、標籤\n\n\n\n\n\n\n(3) 調整長條樣式\n\n點兩下長條，開啟調整頁面\n透過類別間距，調整長條的粗細程度\n透過框線調整長條之形狀\n再點兩下，則可以選取個別長條以做調整\n\n\n\n\n\n\n(4) 加入即調整資料標籤\n\n按「+」後，將「資料標籤」打勾\n選取資料標籤後，按2下，做樣式的調整"
   },
   {
     "objectID": "about.html",
@@ -14,10 +21,59 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "blog",
+    "objectID": "index.html#長條圖",
+    "href": "index.html#長條圖",
+    "title": "課程內容",
+    "section": "長條圖",
+    "text": "長條圖"
+  },
+  {
+    "objectID": "index.html#設計原則",
+    "href": "index.html#設計原則",
+    "title": "長條圖",
+    "section": "設計原則",
+    "text": "設計原則"
+  },
+  {
+    "objectID": "index.html#excel操作",
+    "href": "index.html#excel操作",
+    "title": "1. 長條圖",
     "section": "",
-    "text": "No matching items"
+    "text": "(1) 製作圖表\n\n選取類別標籤和數值，選取「插入」＞ 「圖表」＞ 選擇長條圖\n為了將長條依大小排列，我們要先排序資料，再製作圖表\n因類別標籤太長，我們應使用橫向長條圖，接這再依大小排序\n\n\n\n\n\n\n (2) 調整座標軸\n\n點兩下即可開啟調整頁面，可調整座標軸範圍、線條、標籤\n\n\n\n\n\n\n(3) 調整長條樣式\n\n點兩下長條，開啟調整頁面\n透過類別間距，調整長條的粗細程度\n透過框線調整長條之形狀\n再點兩下，則可以選取個別長條以做調整\n\n\n\n\n\n\n(4) 加入即調整資料標籤\n\n按「+」後，將「資料標籤」打勾\n選取資料標籤後，按2下，做樣式的調整"
+  },
+  {
+    "objectID": "index.html#設計tips-1",
+    "href": "index.html#設計tips-1",
+    "title": "1. 長條圖",
+    "section": "設計Tips",
+    "text": "設計Tips\n\n座標軸範圍不需從0開始，要如何設定範圍依照想強調的內容而定\n不需要將每一個資料標籤都標出來，只需列出重要的即可\n當資料點較少時，可以標出資料點，讓視覺上不會那麼單調\n注意是否有年度缺漏，以虛線表示預估的數值\n時間要在x軸，數值要在y軸"
+  },
+  {
+    "objectID": "index.html#excel操作-1",
+    "href": "index.html#excel操作-1",
+    "title": "1. 長條圖",
+    "section": "Excel操作",
+    "text": "Excel操作\n(1) 製作圖表\n\n先選取數量資料後，插入折線圖\n點選標籤，調整標籤格式\n\n\n\n\n\n\n (2) 調整x軸標籤及圖示\n\n按下「選取資料」，手動選取座標軸標籤\n調整數列名稱以顯示正確圖示名稱\n\n\n\n\n\n\n (3) 調整座標軸範圍\n\n點2下彈出做座標軸選單\n調整最大值、最小值、間隔\n\n\n\n\n\n\n (4) 調整線條樣式\n\n調整線條的粗細、顏色\n對每一個點加入標記\n調整個別線段"
+  },
+  {
+    "objectID": "index.html#設計tips-2",
+    "href": "index.html#設計tips-2",
+    "title": "1. 長條圖",
+    "section": "設計Tips",
+    "text": "設計Tips\n\n圓餅圖在數值接近或類別很多時，不易做比較，可以考慮使用其他圖形，例如長條圖或矩形式樹狀結構圖\n扇形應依數值大小，從12點鐘方向開始排列\n不一定要標示出每一個類別，可依需求僅標示出想要強調的類別"
+  },
+  {
+    "objectID": "index.html#excel操作-2",
+    "href": "index.html#excel操作-2",
+    "title": "1. 長條圖",
+    "section": "Excel操作",
+    "text": "Excel操作\n(1) 製作圖表\n\n先將數值依大小排列\n點「插入」，選取「圓餅圖」\n\n\n\n\n\n\n(2) 資料標籤及顏色\n\n加入數值的資料標籤，選擇顯示百分比，調整標籤位置\n調整扇形顏色，僅凸顯占比最高的三種類型\n\n\n\n\n\n\n(3) 加入類別標籤及其他註解\n\n將圖表的背景及框線都去除\n複製整個圖表，貼入空白的PowerPoint檔案中\n加入標籤及文字註解\n全選物件，再組成群組\n另存成圖檔"
+  },
+  {
+    "objectID": "index.html#設計tips",
+    "href": "index.html#設計tips",
+    "title": "1. 長條圖",
+    "section": "",
+    "text": "依數值大小排序，利於比較大小\n若類別本身之間帶有次序，則依次序排列，例如：時間、年齡組、大小\n太長的類別標籤請使用橫向長條圖，以讓讀者清楚閱讀類別標籤\n座標軸範圍請從0開始，以免過度強調差異"
   }
 ]
