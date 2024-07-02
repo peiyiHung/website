@@ -4,6 +4,7 @@ title-block-style: none
 format:
   html:
     toc: true
+    mainfont: "Noto Sans TC"
     link-external-newwindow: true
     toc-title: "目次"
     other-links:
