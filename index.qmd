@@ -9,7 +9,7 @@ format:
     toc-title: "目次"
     other-links:
       - text: 課程簡報下載
-        href: https://data.nasa.gov/
+        href: https://www.canva.com/design/DAGH-2c7MEw/BRICDWiQT_WeGGY-etEBRg/view?utm_content=DAGH-2c7MEw&utm_campaign=designshare&utm_medium=link&utm_source=editor
       - text: 範例資料來源
         href: https://dep.mohw.gov.tw/DOS/cp-5337-62357-113.html
 ---
